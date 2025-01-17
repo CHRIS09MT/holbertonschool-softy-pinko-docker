@@ -1,5 +1,5 @@
 # Use the latest Ubuntu as the base image
-FROM ubuntu:latest
+FROM ubuntu
 
 # Update and upgrade APT
 RUN apt-get update && apt-get upgrade -y
